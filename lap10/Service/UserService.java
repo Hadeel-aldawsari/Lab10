@@ -41,13 +41,7 @@ public class UserService {
         return true;
     }
 
-    public Boolean isUserExist(Integer id){
-        for (User u:userRepository.findAll()){
-            if(u.getId().equals(id))
-                return true;
-        }
-        return false;
-    }
+ 
 
 
 
