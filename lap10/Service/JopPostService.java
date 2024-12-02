@@ -28,7 +28,6 @@ public class JopPostService {
         if(originalPost==null)return  false;
       originalPost.setTitle(jobPost.getTitle());
       originalPost.setDescription(jobPost.getDescription());
-      originalPost.setPosting_date(jobPost.getPosting_date());
       originalPost.setLocation(jobPost.getLocation());
       originalPost.setSalary(jobPost.getSalary());
 
