@@ -44,11 +44,5 @@ public class JopPostService {
         return true;
     }
 
-    public Boolean isJopPostExist(Integer id){
-        for (JobPost p:jobPostRepository.findAll()){
-            if(p.getId().equals(id))
-                return true;
-        }
-        return false;
-    }
+ 
 }
